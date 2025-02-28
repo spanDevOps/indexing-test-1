@@ -1,0 +1,49 @@
+# Version control
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
+README*
+
+# Development and IDE files
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Build and temporary files
+*.log
+.DS_Store
+.cache/
+
+# Test files
+tests/
+test_*.py
+
+# Models directory (except .onnx files)
+models/*
+!models/*.onnx
+
+# Model download script (only used locally)
+download_models.py
+
+# Node.js files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Other unnecessary files
+*.bak
+*.tmp
+*.old

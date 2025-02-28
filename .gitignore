@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+venvIndexFaces/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Environment variables
+.env
+
+# AWS
+.aws/
+
+# Project specific
+models/
+temp/
+
+# Dependency directories
+node_modules/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# Specific to indexFaceProd2
+src/mlComponents/*.onnx
+src/mlComponents/*.h5
+
+# Any local configuration files
+config.local.py
+
+# Ignore all .json files (often used for temporary data or configurations)
+*.json
+
+# Ignore any CSV files (often used for data exports or logs)
+*.csv
+
+# Python cache directories
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+
+
+# Large model files
+models/*.onnx
+.env.development
+terraform/.terraform/
+face-recognition.tar
